@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equestrian Inquiry</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="task.html" target="_blank">Home</a></li>
+                <li><a href="contact us.html" target="_blank">Equestrian Inquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="Register Now">
+            <h1 id="demo">Register Now</h1>
+            <form action="task.html" method="POST"   target="_blank">
+                <!-- Name and Contact Details -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                
+                <label>Birth Day:</label>
+                <input type="date" name="birth-day">
+        
+                <!-- Country Selection -->
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <optgroup label="Arab Countries">
+                        <option value="egypt">Egypt</option>
+                        <option value="saudia">KSA</option>
+                        <option value="Morocco">Morocco</option>
+                    </optgroup>
+
+                    <optgroup label="European Countries">
+                        <option value="Germany">Germany</option>
+                        <option value="Italy" >Italy</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Japan">Japan</option>
+                    </optgroup>
+                </select>
+                <br><br>
+
+                <!-- Gender and Favorite Sport -->
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male" id="man"> Male
+                <input type="radio" name="gender" value="female"  id="woman"> Female
+                <br><br>
+
+                <label>Favorite equestrian sport:</label><br>
+                <input type="checkbox" name="fav_sport" value="Show Jumping" id="show-jumping">
+                <label for="show-jumping">Show Jumping</label><br>
+                <input type="checkbox" name="fav_sport" value="Dressage" id="dressage">
+                <label for="dressage">Dressage</label><br>
+                <input type="checkbox" name="fav_sport" value="Horse Racing" id="horse-racing">
+                <label for="horse-racing">Horse Racing</label><br>
+                <input type="checkbox" name="fav_sport" value="Endurance Riding" id="endurance-riding">
+                <label for="endurance-riding">Endurance Riding</label><br>
+                <br><br>
+
+                <!-- Uploads and Preferences -->
+                <label>Upload CV:</label>
+                <input type="file" name="cv" multiple><br><br>
+
+                <label>Price Range for Equipment:</label>
+                <input type="range" name="price" min="0" max="100" step="10"><br><br>
+
+                <label>Color Preference for Equipment:</label>
+                <input type="color" name="color"><br><br>
+
+                <label>Number of Horses:</label>
+                <input type="number" name="number" min="0" max="2000" step="1" value="1"><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p> 2025 Equestrian Sports. All rights reserved.</p>
+    </footer>
+</body>
+</html>

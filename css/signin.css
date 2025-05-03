@@ -1,0 +1,36 @@
+
+body{
+ background-color:hsl(0deg 0% 96.08%);
+ text-align: center;
+ margin-top: 20%;
+ display:flex;
+}
+
+.login-box{
+ box-shadow: 0 0 10px rgba(199, 179, 179, 0.911);
+ width:30% ;
+ margin:auto;
+ border: 2px solid #ccc;
+ border-radius:28px ;
+}
+
+
+input {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button{
+  width: 40%;
+   padding: 10px;
+   margin: 10px 0; 
+   border: 1px solid #ccc;
+   border-radius: 5px;
+    background-color:hsl(217.17deg 100% 51.57%) ;
+   color: white; 
+
+ }
+
