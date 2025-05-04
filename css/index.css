@@ -33,13 +33,13 @@ margin-bottom: 30px;
     background-size: cover;
     height: 500px; 
     /* background-repeat: no-repeat; */
-     background-position:center;
+     background-position:top;
     background-attachment:scroll; 
     /* padding: 30px;
     border-radius: 10px; */
 }
 .header-content{
-   color: white;
+   color:black;
    text-align: center;
    padding-top: 5%;
   
